@@ -8,15 +8,22 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
+
   modules: [
-    '@nuxt/eslint',
-    '@nuxt/fonts',
-    '@nuxt/image',
+    '@nuxt/eslint', '@nuxt/fonts', '@nuxt/image',
   ],
+
   css: ['~/assets/css/main.css'],
-  vite: {
-    plugins: [
-      tailwindcss(),
-    ],
-  },
+
+  vite: {plugins: [ tailwindcss() ]},
+
+  // § ekstern stylesheet import eksempel :
+  // app: {
+  //   head: {
+  //     link: [{ 
+  //       rel: 'stylesheet', 
+  //       href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' 
+  //     }]
+  //   }
+  // },
 })
