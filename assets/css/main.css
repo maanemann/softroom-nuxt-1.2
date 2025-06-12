@@ -17,3 +17,15 @@ body {
   font-family: 'Unifont', sans-serif;
   @apply bg-emerald-900;
 }
+
+
+/* § h2 : kopieret fra `fresh-create_fra-8` (net ninja nuxt3 tut) – mon det virker her? */
+
+@layer components {
+  .btn {
+    @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm text-white;
+  }
+  .card {
+    @apply p-3 rounded-md bg-white shadow-md h-full;
+  }
+}
