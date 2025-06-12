@@ -1,5 +1,5 @@
 
-// § h1 : eksempel fra nuxt dokumentation, lav det om.
+// § h1 : eksempel fra nuxt dokumentation (lidt modifiseret), lav det om.
   // § link : https://nuxt.com/docs/getting-started/configuration
 
 export default defineAppConfig({
