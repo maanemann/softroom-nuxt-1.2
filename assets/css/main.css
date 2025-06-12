@@ -15,4 +15,5 @@
 
 body {
   font-family: 'Unifont', sans-serif;
+  @apply bg-emerald-900;
 }
