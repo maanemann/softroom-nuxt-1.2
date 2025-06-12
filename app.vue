@@ -1,9 +1,13 @@
+
+<!-- § "If you only have a single layout in your application, we recommend using app.vue with <NuxtPage /> instead." -->
+  <!-- § https://nuxt.com/docs/getting-started/views#layouts -->
+
 <template>
-  <!-- <div class="bg-amber-300">
-    hey
-  </div> -->
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <NuxtLayout>
+
+      <NuxtPage />
+
+    </NuxtLayout>
   </div>
 </template>
