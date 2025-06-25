@@ -15,7 +15,7 @@
 
 body {
   font-family: 'Unifont', sans-serif;
-  @apply bg-emerald-900;
+  @apply bg-emerald-900 text-amber-100; 
 }
 
 
