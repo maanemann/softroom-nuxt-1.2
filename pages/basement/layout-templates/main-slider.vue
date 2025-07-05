@@ -5,6 +5,15 @@
 
 <template>
   <div>
+    <button 
+      type="button"
+      class="
+        absolute w-16 aspect-square 
+        bottom-16 right-[calc(16rem-4rem)] 
+        rounded-r-full p-2 bg-emerald-900"
+    >
+      ▸
+    </button>
     <!-- § TODO: omskriv værdier til grid variabler (i main.css) -->
     <section
       aria-label="Main articles presented in an image carousel"
