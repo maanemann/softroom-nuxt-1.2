@@ -1,7 +1,14 @@
 
 @import "tailwindcss";
 
-/* § Safelist specific classes (så de genereres inden build time og derfor kan apply'es dynamisk, fx gennem props (som hedder attribute bindings i vue (???)). Tailwind generer nemlig (smart nok) kun de classes, der er i brug */
+/* § Safelist specific classes (så de genereres inden build time og derfor kan apply'es dynamisk, fx gennem props (/ attribute bindings (vue) (??)). Tailwind generer nemlig (smart nok) kun de classes, der er i brug.
+
+  Dette kan evt gøres smartere med 'brace-expansion' (kommer fra bash) til 'variants' og 'ranges':
+  https://tailwindcss.com/docs/detecting-classes-in-source-files#safelisting-specific-utilities
+
+  Forklaring på ovenstående, som evt er nødv for forståelse :
+  https://youtu.be/HTFHoA12MJk?si=__4ivW2bYIMI0yf5&t=599
+*/
 @source inline("bg-rose-300/40 bg-pink-300/40 bg-fuchsia-300/40 bg-purple-300/40");
 
 /* § https://nuxt.com/docs/getting-started/styling#working-with-fonts */
