@@ -16,6 +16,7 @@ const props = defineProps<{
     :class="`
       bg-${props.bgc}
       w-[calc(100vw-16rem)] h-full
+      snap-start
     `"/>
     <!-- :style="{ backgroundColor: props.bgc }" -->
     <!-- class="bg-rose-300/40 w-[calc(100vw-16rem)] h-full" -->
