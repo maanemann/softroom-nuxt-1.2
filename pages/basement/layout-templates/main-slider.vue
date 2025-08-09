@@ -1,5 +1,8 @@
 
 <script setup lang="ts">
+
+  // § TODO: fix denne malfunktionelle kode fra llm :
+
   import { ref, nextTick } from 'vue'
 
   const containerRef = ref<HTMLElement | null>(null)
