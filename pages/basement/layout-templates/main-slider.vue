@@ -2,11 +2,19 @@
 <script setup lang="ts">
 
   // § TODO: fix denne malfunktionelle kode fra llm :
+  // // § EDIT: er den stadig malfunktionel?
 
-  import { ref, nextTick } from 'vue'
+  import { ref, nextTick, computed } from 'vue'
 
   const containerRef = ref<HTMLElement | null>(null)
   const currentIndex = ref(0)
+
+  const slideCount = computed(() => containerRef.value?.children.length ?? 0)
+
+  // § reactive-watcher :
+  watch(currentIndex, (newVal) => {
+    console.log(newVal)
+  })
 
   const goToNextSlide = async () => {
     // Find all slide elements
@@ -14,7 +22,9 @@
     if (!slides || currentIndex.value >= slides.length - 1) return
 
     currentIndex.value++
+
     const nextSlide = slides[currentIndex.value] as HTMLElement
+    
     if (nextSlide && containerRef.value) {
       // Smoothly scroll to the next slide's offset
       containerRef.value.scrollTo({
@@ -36,10 +46,13 @@
         bottom-16 right-[calc(16rem-4rem)] 
         rounded-r-full p-2 bg-emerald-900
         cursor-pointer
+        disabled:hidden
       "
-      :disabled="currentIndex === 4"
+      :disabled="currentIndex >= slideCount - 1"
       @click="goToNextSlide"
-    >
+      >
+      <!-- § removed-attribute : -->
+        <!-- :disabled="currentIndex === 4" -->
       ▸
     </button>
     <!-- § TODO: omskriv værdier til (grid) variabler (i main.css) -->
@@ -48,7 +61,7 @@
       aria-label="Main articles presented in an image carousel"
       class="
         flex gap-1
-        w-fit h-screen overflow-x-auto
+        h-screen overflow-x-auto
         snap-x snap-mandatory scroll-smooth
     ">
       <!-- § inject'ede(?) klasser herunder er+skal føjet til main.css > `@source inline()`, læs mere derinde.. -->
