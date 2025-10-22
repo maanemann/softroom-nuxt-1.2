@@ -37,6 +37,6 @@
 
   // Set the page layout using definePageMeta
   definePageMeta({
-    layout: "products",
+    layout: "netninja-products",
   });
 </script>

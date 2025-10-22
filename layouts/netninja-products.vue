@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="netninja">
     <header class="shadow-sm bg-white">
       <nav class="container mx-auto p-4">
         <NuxtLink to="/basement/netninja-nuxt-tut/products" class="font-bold">Nuxt Dojo Merch</NuxtLink>

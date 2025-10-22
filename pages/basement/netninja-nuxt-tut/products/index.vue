@@ -15,6 +15,6 @@
   const { data: products } = await useFetch('https://fakestoreapi.com/products')
 
   definePageMeta({
-    layout: "products",
+    layout: "netninja-products",
   })
 </script>
