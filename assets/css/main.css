@@ -28,6 +28,12 @@ body {
 
 /* § h2 : kopieret fra `fresh-create_fra-8` (net ninja nuxt3 tut) – mon det virker her? (ja) */
 
+/* § `body`-har-fået-`:has(.netninja)` pseudo-klassen, og netninja layouts har fået `netninja` klassen for kun at ramme netninja tut materialet */
+body:has(.netninja) {
+  @apply text-black;
+  @apply bg-gray-50;
+}
+
 @layer components {
   .btn {
     @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm text-white;
