@@ -9,6 +9,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
 
+  // læs: https://image.nuxt.com/ og https://fonts.nuxt.com/ 
   modules: [
     '@nuxt/eslint', '@nuxt/fonts', '@nuxt/image',
   ],
