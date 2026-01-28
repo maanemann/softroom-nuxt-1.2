@@ -102,12 +102,12 @@ placer en stor, usynlig box inde i knappen, som går ud over kanterne (`absolute
             <h1 class="text-2xl/8 font-bold text-zinc-950">API Documentation</h1>
             <p class="mt-2 text-base/7 text-zinc-700">Use the Protocol API to access contacts, conversations, group messages, and more and seamlessly integrate your product into the workflows of dozens of devoted Protocol users.</p>
             <div class="mt-6 mb-16 flex gap-3">
-              <a class="inline-flex justify-center gap-0.5 overflow-hidden rounded-full bg-zinc-900 px-3 py-1 text-sm/6 font-medium text-white transition hover:bg-zinc-700" href="/quickstart">
+              <a class="inline-flex justify-center gap-0.5 overflow-hidden rounded-full bg-zinc-900 px-3 py-1 text-sm/6 font-medium text-white transition hover:bg-zinc-700" href="#">
                 Quickstart<svg viewBox="0 0 20 20" fill="none" aria-hidden="true" class="mt-0.5 -mr-1 h-5 w-5">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m11.5 6.5 3 3.5m0 0-3 3.5m3-3.5h-9"></path>
                 </svg>
               </a>
-              <a class="inline-flex justify-center gap-0.5 overflow-hidden rounded-full px-3 py-1 text-sm/6 font-medium text-zinc-700 ring-1 ring-zinc-900/10 transition ring-inset hover:bg-zinc-900/2.5 hover:text-zinc-900" href="/sdks">Explore SDKs</a>
+              <a class="inline-flex justify-center gap-0.5 overflow-hidden rounded-full px-3 py-1 text-sm/6 font-medium text-zinc-700 ring-1 ring-zinc-900/10 transition ring-inset hover:bg-zinc-900/2.5 hover:text-zinc-900" href="#">Explore SDKs</a>
             </div>
             <h2 class="scroll-mt-24 text-lg/7 font-semibold text-zinc-900" id="getting-started">Getting started</h2>
             <p class="lead mt-2 mb-6 text-base/7 text-zinc-700">
@@ -117,7 +117,7 @@ placer en stor, usynlig box inde i knappen, som går ud over kanterne (`absolute
               to reach the Protocol community.
             </p>
             <div>
-              <a class="inline-flex justify-center gap-0.5 overflow-hidden text-sm/6 font-medium text-emerald-500 transition hover:text-emerald-600" href="/sdks"
+              <a class="inline-flex justify-center gap-0.5 overflow-hidden text-sm/6 font-medium text-emerald-500 transition hover:text-emerald-600" href="#"
                 >Get your API key<svg viewBox="0 0 20 20" fill="none" aria-hidden="true" class="relative top-px mt-0.5 -mr-1 h-5 w-5">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m11.5 6.5 3 3.5m0 0-3 3.5m3-3.5h-9"></path></svg
               ></a>
