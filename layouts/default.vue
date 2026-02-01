@@ -1,4 +1,8 @@
 
+<script setup lang="ts">
+  const color = useColor() 
+</script>
+
 <template>
   <div>
 
@@ -13,6 +17,9 @@
       layoutttt
 
     </p>
+
+    <!-- § TODO: kan statiske og dynamiske klasselister kombineres ? : -->
+    <!-- <p :class="color" class="ml-25">Current color: {{ color }}</p> -->
 
     <slot />
 
