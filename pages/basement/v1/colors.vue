@@ -186,6 +186,10 @@
     updateGrid(); 
     window.addEventListener('resize',updateGrid) })
   onUnmounted(()=>{ window.removeEventListener('resize',updateGrid) })
+
+  definePageMeta({
+    layout: "actually-empty",
+  });
 </script>
 
 
