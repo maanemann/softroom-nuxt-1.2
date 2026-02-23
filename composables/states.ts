@@ -3,6 +3,7 @@
 // // https://nuxt.com/docs/4.x/getting-started/state-management#shared-state
 
 // § TODO: tilføj det indhold til `app.vue` som docs (ovenfor) angiver efter dette (nedenfor)
+  // § EDIT: denne funktion kaldes nu i `default.vue` (layout) i stedet for i `app.vue`
 
 export const useColor = () => useState<string>('color', () => 'bg-rose-300/40')
 
