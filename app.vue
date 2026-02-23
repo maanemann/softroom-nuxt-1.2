@@ -3,9 +3,9 @@
   <!-- § https://nuxt.com/docs/getting-started/views#layouts -->
 
 <template>
-  <div>
+  <!-- <div> -->
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-  </div>
+  <!-- </div> -->
 </template>
