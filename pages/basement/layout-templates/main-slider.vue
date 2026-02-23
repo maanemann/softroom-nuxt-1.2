@@ -33,6 +33,11 @@
       })
     }
   }
+  
+  // § layout definitionen her er ikke relateret til det ovenfor :
+  definePageMeta({
+    layout: "actually-empty",
+  });
 </script>
 
 <template>

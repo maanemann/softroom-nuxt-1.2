@@ -17,6 +17,12 @@ Titlen siger det meste, fik ikke taget noter til den her, men det handler basica
 § h2 : hele koden fra course
 -->
 
+<script setup lang="ts">
+  definePageMeta({
+    layout: "actually-empty",
+  });
+</script>
+
 <template>
   <div class="px-(--page-padding) py-6 [--page-padding:--spacing(4)] sm:[--page-padding:--spacing(8)]">
     <div class="mx-auto max-w-6xl">

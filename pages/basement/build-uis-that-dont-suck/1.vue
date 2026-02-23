@@ -28,6 +28,12 @@ border-radius for child-elementet skal være parent border-radius minus padding 
 § h2 : hele koden fra course
 -->
 
+<script setup lang="ts">
+  definePageMeta({
+    layout: "actually-empty",
+  });
+</script>
+
 <template>
   <div class="bg-gray-950 px-8 py-16">
     <div class="mx-auto flex max-w-md flex-col gap-y-10">

@@ -24,6 +24,12 @@ Put ikoner i en box der har samme css-variabel-værdi i højde som line-height
 § h2 : hele koden fra course
 -->
 
+<script setup lang="ts">
+  definePageMeta({
+    layout: "actually-empty",
+  });
+</script>
+
 <template>
   <div class="px-8 py-16">
     <div class="mx-auto max-w-md">

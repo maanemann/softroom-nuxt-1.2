@@ -31,7 +31,9 @@ Løs problemet med at screen readers læser alt indholdet i links, og hvis linke
 -->
 
 <script setup lang="ts">
-
+  definePageMeta({
+    layout: "actually-empty",
+  });
 </script>
 
 <template>

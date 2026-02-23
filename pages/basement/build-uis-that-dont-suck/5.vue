@@ -27,6 +27,12 @@ Find selv ud af det .. (*suk* lol)
 § NOTE! : koden er react, ikke vue, og består af flere komponenter, så dette er kun `Dropdown.jsx` komponentet og renderes self helt absolut forkert. Se resten af komponenterne i linket ovenfor (hvis det stadig er aktivt)
 -->
 
+<script setup lang="ts">
+  definePageMeta({
+    layout: "actually-empty",
+  });
+</script>
+
 <template>
   <div>
     export function Dropdown({ children }) {
