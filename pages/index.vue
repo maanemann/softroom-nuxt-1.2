@@ -13,11 +13,33 @@
         <ul>
           <li><a href="/basement/v1">v1</a>
             <ul>
-              <li> <a href="/basement/v1/colors"> colors </a> </li>
-              <li> <a href="/basement/v1/clip"> clip </a> </li>
+              <li><a href="/basement/v1/colors">colors</a></li>
+              <li><a href="/basement/v1/clip">clip</a></li>
             </ul>
           </li>
-          <li> ... </li>
+          <li><a href="/basement/netninja-nuxt-tut">netninja-nuxt-tut</a>
+            <ul>
+              <li><a href="/basement/netninja-nuxt-tut/about">about</a></li>
+              <li><a href="/basement/netninja-nuxt-tut/products">products</a></li>
+            </ul>
+          </li>
+          <li>layout-templates
+            <ul>
+              <li><a href="/basement/layout-templates/main-slider">main-slider</a></li>
+              <li><a href="/basement/layout-templates/tight-frame-frame">tight-frame-frame</a></li>
+            </ul>
+          </li>
+          <li> build-uis-that-dont-suck
+            <ul class="[&_li]:inline">
+              <li><a href="/basement/build-uis-that-dont-suck/0">0</a></li>
+              <li><a href="/basement/build-uis-that-dont-suck/1">1</a></li>
+              <li><a href="/basement/build-uis-that-dont-suck/2">2</a></li>
+              <li><a href="/basement/build-uis-that-dont-suck/3">3</a></li>
+              <li><a href="/basement/build-uis-that-dont-suck/4">4</a></li>
+              <li><a href="/basement/build-uis-that-dont-suck/5">5</a></li>
+              <li><a href="/basement/build-uis-that-dont-suck/x">6</a></li>
+            </ul>
+          </li>
         </ul>
       </li>
     </ul>
